@@ -12,13 +12,13 @@ class Account {
         this.accountHolder = accountHolder;
         this.balance = initialBalance;
         this.transactionHistory = new ArrayList<>();
-        transactionHistory.add("Account created with balance: $" + initialBalance);
+        transactionHistory.add("Account created with balance: " + initialBalance);
     }
 
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            transactionHistory.add("Deposited: $" + amount + " | Balance: $" + balance);
+            transactionHistory.add("Deposited: " + amount + " | Balance: " + balance);
             System.out.println("Deposit successful!");
         } else {
             System.out.println("Invalid deposit amount!");
@@ -28,7 +28,7 @@ class Account {
     public void withdraw(double amount) {
         if (amount > 0 && amount <= balance) {
             balance -= amount;
-            transactionHistory.add("Withdrew: $" + amount + " | Balance: $" + balance);
+            transactionHistory.add("Withdrew: " + amount + " | Balance: " + balance);
             System.out.println("Withdrawal successful!");
         } else if (amount > balance) {
             System.out.println("Insufficient funds!");
@@ -38,7 +38,7 @@ class Account {
     }
 
     public void checkBalance() {
-        System.out.println("Current Balance: Rs." + balance);
+        System.out.println("Current Balance: " + balance);
     }
 
     public void printTransactionHistory() {
