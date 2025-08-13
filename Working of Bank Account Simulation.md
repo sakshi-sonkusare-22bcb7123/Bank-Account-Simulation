@@ -8,16 +8,16 @@
 
 <img width="1391" height="68" alt="image" src="https://github.com/user-attachments/assets/0714dd29-55de-4f79-bafa-d3f422e95549" />
 
-<img width="1424" height="290" alt="image" src="https://github.com/user-attachments/assets/4a5db78b-7748-4599-8bc1-936b13fa334e" />
+<img width="1432" height="386" alt="image" src="https://github.com/user-attachments/assets/bd177e05-e55d-4343-bd27-4eb6e45a196d" />
 
 
 ## 1.	Deposit (^^ゞ
 
-<img width="1718" height="301" alt="image" src="https://github.com/user-attachments/assets/f9c8dade-a13b-45e5-9ad2-217cc5f61775" />
+<img width="1424" height="290" alt="image" src="https://github.com/user-attachments/assets/4a5db78b-7748-4599-8bc1-936b13fa334e" />
 
 ## 2.	Withdraw (^///^)
 
-<img width="1432" height="386" alt="image" src="https://github.com/user-attachments/assets/bd177e05-e55d-4343-bd27-4eb6e45a196d" />
+<img width="1718" height="301" alt="image" src="https://github.com/user-attachments/assets/f9c8dade-a13b-45e5-9ad2-217cc5f61775" />
 
 ## 4.	Cheak Balance ^_~
  
