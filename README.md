@@ -1,82 +1,97 @@
 # 🛰️ Bank Account Simulation – Java OOP Project  
 
 ## 🧁 Overview  
-This project is a **console-based Bank Account Simulation** built in **Java** using **Object-Oriented Programming (OOP)** concepts.  
-It allows a user to:  
+This project is a **console-based Bank Account Simulation** built in **Java** using **Object-Oriented Programming (OOP)** principles.  
+It allows users to:  
 - Create a bank account with an initial deposit.  
 - Perform **Deposit** and **Withdrawal** transactions.  
-- Check account balance.  
-- View complete transaction history.  
+- Check the account balance.  
+- View the full **Transaction History**.  
 
-The program ensures proper **input validation** and keeps a record of all transactions in memory.  
+The program includes **input validation** and maintains a record of all transactions during the session.  
 
 ---
 
 ## 🦓 Features  
-- **Account Creation** – Create an account with the account holder’s name and initial balance.  
-- **Deposit Money** – Add funds to the account with real-time balance updates.  
-- **Withdraw Money** – Withdraw funds with insufficient balance checks.  
-- **Check Balance** – View the current account balance.  
-- **Transaction History** – See a detailed log of all deposits and withdrawals.  
-- **Exit Option** – End the program safely.  
+- **Account Creation** → User provides name and initial deposit.  
+- **Deposit Money** → Adds funds and updates balance instantly.  
+- **Withdraw Money** → Deducts funds with insufficient balance check.  
+- **Check Balance** → Displays current account balance.  
+- **Transaction History** → Keeps a session log of all deposits and withdrawals.  
+- **Exit Option** → Ends the program safely with a thank-you message.  
 
 ---
 
+## 🏀 Classes & Responsibilities  
 
-### **Classes**  
-
-#### 1. Account  
+### 1. `Account`  
+Handles all account-related operations.  
 - **Fields**:  
-  - `accountHolder`  
-  - `balance`  
-  - `transactionHistory`  
+  - `accountHolder` → Name of the account owner  
+  - `balance` → Current account balance  
+  - `transactionHistory` → List of all transactions in session  
 - **Methods**:  
-  - `deposit(amount)` – Adds money to balance and logs the transaction.  
-  - `withdraw(amount)` – Deducts money if funds are sufficient.  
-  - `checkBalance()` – Displays current balance.  
-  - `printTransactionHistory()` – Shows all past transactions.  
+  - `deposit(amount)` → Add money and log transaction  
+  - `withdraw(amount)` → Deduct money with validation  
+  - `checkBalance()` → Display balance  
+  - `printTransactionHistory()` → Print all past transactions  
 
-#### 2. BankAccountSimulation (Main Class)  
-- Handles user input and menu options.  
-- Creates an `Account` object and calls appropriate methods based on user choice.  
-
----
-
-## 🗺️ Concepts Used
-
-Java Classes & Objects
-Encapsulation (private fields with public methods)
-ArrayList for storing transaction history
-Conditional Statements for validation
-Looping & Menu-Driven Programs
-User Input Handling with Scanner
+### 2. `BankAccountSimulation` (Main Class)  
+- Handles **user input** and menu navigation.  
+- Creates the `Account` object.  
+- Uses a loop-driven menu for deposit, withdraw, check balance, history, and exit.  
 
 ---
 
-## 🛸 Future Improvements
+## 🗺️ Concepts Used  
+- **Java Classes & Objects**  
+- **Encapsulation** (private fields, public methods)  
+- **ArrayList** for transaction history  
+- **Conditional statements** for validations  
+- **Looping** for menu-driven program flow  
+- **User input handling** using `Scanner`  
 
-Save transaction history to a file for persistence.
-Add account authentication with username & PIN.
-Support for multiple accounts in one session.
+---
+
+## 🛸 Future Improvements  
+- Save transaction history to a file for **persistence across sessions**.  
+- Add account authentication with **username & PIN**.  
+- Support for **multiple accounts** in one session.  
+- Implement **interest calculations** or account types (Savings, Current).  
+
+---
+
+## 🚴‍♀️ How to Run  
+
+1. Save the code in a file named **`BankAccountSimulation.java`**  
+2. Compile the program:  
+   ```sh
+   javac BankAccountSimulation.java
+  ````
+
+3. Run the program:
+
+   ```sh
+   java BankAccountSimulation
+   ```
+4. Follow the **menu options** to interact with the banking system.
 
 ---
 
 ## 🥤🍀 About the Author
 
-**Sakshi Bhojraj Sonkusare**  
+**Sakshi Bhojraj Sonkusare**
 
 Aspiring software developer with a strong interest in creating impactful, user-friendly applications. Passionate about continuous learning and bringing ideas to life through code.
 
-- LinkedIn: [https://www.linkedin.com/in/sakshi-sonkusare-381362354/](https://www.linkedin.com/in/sakshi-sonkusare-381362354/)  
-- Portfolio: Coming Soon  
+* LinkedIn: [https://www.linkedin.com/in/sakshi-sonkusare-381362354/](https://www.linkedin.com/in/sakshi-sonkusare-381362354/)
+* Portfolio: Coming Soon
 
 ---
 
-## Contributions and Support ❤️
+## ❤️ Contributions and Support
 
-Feedback, suggestions, and contributions are always welcome.   
+Feedback, suggestions, and contributions are always welcome.
 Pull requests for improvements, bug fixes, or feature additions are encouraged.
 
 ---
-
-
